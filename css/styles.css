@@ -1,0 +1,54 @@
+h1 {
+    color: lightskyblue;
+  
+  }
+  
+  h1 {
+    background-color: black;
+  
+  }
+  
+  h2 {
+  background-color: black;
+  }
+  
+  h2 {
+    color: lightskyblue;
+  
+  }
+  
+  .center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
+  
+  }
+  
+  .left {
+  display: block;
+  margin-right: auto;
+  width: auto;
+  
+  }
+  
+  .right {
+    display: block;
+    margin-left: auto;
+    width: auto;
+    
+    }
+  
+  .column {
+      float: left;
+      width: auto;
+      padding: 20px;
+    }
+  
+  .row::after {
+      content:"";
+      clear: both;
+      display:block
+  
+    }
+  
